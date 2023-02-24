@@ -1,0 +1,288 @@
+/*BOTON DEL CHOFER*/
+.botonAddChofer{
+    padding: 0.5rem;
+    background: rgb(240, 165, 0);
+    color: white;
+    font-size: 1rem;
+    border-radius: 6px;
+    outline: none;
+    border: none;
+    width: 6rem;
+    cursor: pointer;
+}
+
+.botonAddChofer:hover{
+    opacity: 0.8;
+}
+
+
+.buscador{
+    font-size: 1rem !important;
+    padding-left: 0.5rem;
+    line-height: 0.2px !important;
+}
+
+.nuevoPasajero{
+    display: flex;
+    padding: 0px 15px;
+    flex-direction: row;
+}
+
+.filasFormulario{
+    display: flex;
+    flex-direction: column;
+    margin: 7px 0px;
+}
+
+.filasFormularioCheck{
+    display: flex;
+    flex-direction: row;
+    margin: 7px 0px;
+}
+
+.carasFormulario{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 0px 15px;
+    width: 450px;
+}
+
+.labelFormulario{
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.inputFormulario, .selectFormulario{
+    padding: 8px;
+    font-size: 1.15em;
+    width: 100%;
+} 
+
+
+input[type="text"]{
+    border: none;
+    border-bottom: 1.9px solid #e6b012;;
+    outline: none;
+    line-height: 20px;
+}
+
+input[type="text"]:focus{
+    border-bottom: 1.9px solid #d9a600;
+}
+
+select{
+    cursor: pointer;
+}
+
+input[type="checkbox"]{
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+select{
+    font-size: 1.1em !important;
+    margin-top: 5px;
+    border: 1px solid  #d9a600;
+}
+
+textarea{
+    font-size: 12px;
+    outline: none;
+}
+
+textarea:focus{
+    border: 1px solid #d9a600;
+}
+
+.BtnGuardar{
+    background-color: #e6b012;
+    border:1px solid #d9a600;
+    color: white;
+    cursor: pointer;
+    padding: 3px;
+    border-radius: 0.35rem;
+}
+
+.btnBuscar{
+    background-color: #e6b012;
+    border:1px solid #d9a600;
+    color: white;
+    cursor: pointer;
+    padding: 5px;
+    margin-left: 5px;
+}
+
+.BtnGuardar:hover{
+    opacity: 0.8;
+}
+
+.btnBuscar:hover{
+    opacity: 0.8;
+}
+
+.Pasajero_form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.BtnCodigo{
+    background-color: #e6b012;
+    border:1px solid #d9a600;
+    color: white;
+    cursor: pointer;
+    width: 100px;
+    padding: 4px;
+    font-size: 1em;
+    border-radius: 0.35rem;
+}
+
+.BtnCodigo:hover{
+    opacity: 0.8;
+}
+
+.FormularioCrear{
+    background-color: #e6b012;
+    border:1px solid #d9a600;
+    color: white;
+    cursor: pointer;
+    width: 100% !important;
+    padding: 7px !important;
+    font-size: 1.1em !important;
+    border-radius: 0.35rem;
+}
+
+.FormularioCrear:hover{
+    opacity: 0.8;
+}
+
+.fontSize1{
+    font-size: 1em !important;
+}
+
+.listPassenger{
+    position: absolute;
+    height: 95px;
+    display: flex;
+    flex-direction: column;
+    background: white;
+    width: 250px;
+    overflow-y: scroll;
+    padding: 7px;
+    margin-top: 55px;
+}
+
+.listPassenger span:hover{
+    background-color: #e6b012 !important;
+    border:1px solid #d9a600 !important;
+    color: white !important;
+    transition: 350ms;
+}
+
+.listPassenger::-webkit-scrollbar{
+    -webkit-appearance: none;
+}
+
+.listPassenger::-webkit-scrollbar:vertical {
+    width:10px;
+}
+
+.listPassenger::-webkit-scrollbar-thumb {
+    background-color: #797979;
+    border-radius: 20px;
+    border: 2px solid #f1f2f3;
+}
+
+.listPassenger::-webkit-scrollbar-track {
+    border-radius: 10px;  
+}
+
+.invalido:invalid{
+    color: red !important;
+}
+
+
+/* CSS PARA MANTENIMIENTO DE TARIFA*/
+.modalDialog {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    background: rgba(0, 0, 0, 0.7);
+    cursor: pointer;
+    visibility: visible;
+    opacity: 1;
+    transition: all 0.35s ease-in;
+    z-index: 100;
+}
+/*CUERPO MODAL GLOBAL*/
+.modal-dialog {
+    position: relative;
+    max-width: 800px;
+    max-height: 81vh;
+    border-radius: 5px;
+    background: white;
+    overflow: auto;
+    cursor: default;
+    color: black;
+    opacity: 1;
+    width: 400px;
+}
+/*CUERPO MODAL DOS COLUMNAS*/
+.modal-dialog-2col{
+    position: relative;
+    max-width: 50%;
+    max-height: 50%;
+    border-radius: 5px;
+    background: white;
+    overflow: auto;
+    cursor: default;
+    color: black;
+    opacity: 1;
+    width: 500px !important;
+}
+
+
+.modal-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.modal-header{
+  background: #1A1C20;
+  color: white !important;
+  font-weight: bold;
+}
+
+.modal-dialog > * {
+    padding: 1rem;
+}
+.modal-dialog-2col > * {
+    padding: 1rem;
+}
+
+.inputFormularioText{
+    font-size: 1em !important;
+}
+
+.inputDate{
+    border: 1px solid #d9a600;
+}
+
+.inputFormularioBoton{
+    padding: 7px 3px !important;
+    width: 100% !important; 
+}
+
+.table tr:nth-child(even){background-color: #F9F9F9;}
+
+.selectTablaAerolinea {
+    font-size: 1em !important;
+}

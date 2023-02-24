@@ -1,0 +1,527 @@
+.cuadro{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 60px;
+    font-size: 14px;
+    border: none;
+    padding: 15px;
+    box-shadow:rgb(0 0 0 / 15%) 0px 0px 8px 0px;
+    flex-wrap: unset;
+}
+
+.proceso label{
+    font-size: 16px;
+}
+
+.react-datepicker-wrapper{
+    width: auto !important;
+}
+
+.cuadro form{
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cuadro .datePicker, input[type="file"]{
+    margin-right:15px ;
+}
+
+.cuadro input[type="file"]{
+    padding: 3px;
+    font-size: 14px;
+}
+
+.cuadro .datePicker, input[type = 'submit']{
+    padding: 3px;
+    width: 200px;
+    font-size: 14px;
+}
+
+.cuadro input[type = 'submit']{
+    margin-left:10px;
+    width: 160px;
+    background-color: #e6b012;
+    border:1px solid #d9a600;
+    color: white;
+    cursor: pointer;
+    border-radius: 0.35rem;
+    padding:3px;
+    font-size: 0.95rem;
+}
+
+.cuadro input[type ="submit"]:hover{
+    background-color: #d9a600;
+}
+
+
+/* STYLES TABLA > LIQUIDACION - REPROGRAMADOS*/
+.cuadro_PROCESO_PROGRAMACION_RE{
+    width: 500px !important
+}
+
+/* STYLES PROCESO> PROGRAMACION*/
+
+.cuadro_PROCESO_PROGRAMACION{
+    margin: 20px 60px;
+    font-size: 14px;
+    border: none;
+    padding: 5px 10px;
+    box-shadow:rgb(0 0 0 / 15%) 0px 0px 8px 0px;
+    max-width: 500px;
+}
+
+.cuadro_PROCESO_PROGRAMACION550px{
+    max-width: 550px !important;
+}
+
+.cuadro_PROCESO_PROGRAMACION div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 8px 0px;
+    flex-direction: row;
+}
+
+.cuadro_PROCESO_PROGRAMACION div .col1{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.cuadro_PROCESO_PROGRAMACION div .col1 div{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cuadro_PROCESO_PROGRAMACION div .col2{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.cuadro_PROCESO_PROGRAMACION div div span{
+    font-size: 1.05em;
+    margin-right: 15px;
+}
+
+.cuadro_PROCESO_PROGRAMACION div div select{
+    padding: 5px;
+    width: 150px;
+    font-size: 1em !important;
+}
+
+.cuadro_PROCESO_PROGRAMACION div div input[type="text"]{
+    font-size: 1em;
+    padding: 0px 7px;
+    width: 150px !important;
+}
+
+.cuadro_PROCESO_PROGRAMACION input[type="submit"]{
+    background-color: #e6b012;
+    border:1px solid #d9a600;
+    color: white;
+    cursor: pointer;
+    width: 100% !important;
+    padding: 5px;
+    border-radius: 0.35rem;
+}
+
+.cuadro_PROCESO_PROGRAMACION input[type="submit"]:hover{
+    opacity: 0.8;
+}
+
+
+/* STYLES PROCESO> LIQUIDACION*/
+
+.Inicio{
+    display: flex;
+    justify-content: center;
+}
+
+.Inicio_img{
+    width: 550px;
+}
+
+.historial{
+    color: gray;
+    font-size: 1em;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.cuadroMapa{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: fixed;
+    z-index: 100; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100vw; 
+    height: 100vh; 
+    overflow: auto; 
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+}
+
+.mapa{
+    display: flex;
+    height: 75vh;
+    width: 70%;
+    padding: 15px;
+    flex-direction: column;
+}
+
+.mapaSeleccion{
+    width: 30%;
+    padding: 15px;
+    height: 420px;
+    overflow-y: scroll;
+}
+
+.mapaSeleccion::-webkit-scrollbar{
+    -webkit-appearance: none;
+}
+.mapaSeleccion::-webkit-scrollbar:vertical {
+    width:10px;
+}
+.mapaSeleccion::-webkit-scrollbar-thumb {
+    background-color: #797979;
+    border-radius: 20px;
+    border: 1px solid #f1f2f3;
+}
+
+.mapaSeleccion::-webkit-scrollbar-track {
+    border-radius: 10px;  
+}
+
+.botonAccionLiquidacion{
+    background-color:#F0A500;
+    border:1px solid #d9a600;
+    padding:5px 15px;
+    color:white;
+    border-radius: 0.35rem;
+    cursor:pointer;
+}
+
+.botonAccionLiquidacion:hover{
+    opacity: 0.8;
+}
+
+.botonReserva{
+    width: 100%;
+    background-color: #e6b012;
+    border:1px solid #d9a600;
+    color: white;
+    cursor: pointer;
+    border-radius: 0.35rem;
+    padding: 5px;
+    font-size: 14px;
+}
+
+.botonReserva:hover{
+    opacity: 0.8;
+}
+
+.btnCerrarModal{
+    background-color: red;
+    width: 100%;
+    color: white;
+    border: #F0A500;
+    cursor: pointer;
+    border-radius: 3px;
+    padding: 5px;
+    font-size: 14px;
+}
+
+.btnCerrarModal:hover{
+    background-color: #BB371A;
+}
+
+.mapaSeleccion ul{
+    line-height: 50px;
+}
+
+.mapaSeleccion ul li{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #797979;
+    border-radius: 7px;
+    padding: 7px;
+    list-style:none;
+    margin: 15px 0px;
+    line-height: 20px;
+    flex-wrap: unset;
+    background-color: #eee;
+}
+
+.mapaSeleccion ul li:hover{
+    background-color: #1A1C20;
+    color: #F4F4F4;
+    border: 2px solid #1A1C20;
+    cursor: pointer;
+    transition: 300ms;
+}
+
+.mapaSeleccion ul li label{
+    cursor: pointer;
+}
+
+.alerta{
+    padding: 15px;
+    background-color: #FDD998;
+    color: #CF7500;
+}
+
+.botonCargarINFO{
+    margin-left:10px;
+    width:160px; 
+    background-color: #e6b012;
+    border:1px solid #d9a600;
+    color:white;
+    border:#F0A500;
+    cursor:pointer;
+    border-radius:0.35rem;
+    padding:3px;
+    font-size: 0.95rem;
+}
+
+.botonCargarINFO:hover{
+    opacity: 0.8;
+}
+
+
+/*CUADRO DE REPORTE*/
+
+.cuadro_REPORTE{
+    margin: 20px 60px;
+    font-size: 14px;
+    border: none;
+    padding: 10px;
+    box-shadow: -0px 0px 0px 2px rgba(0,0,0,.1);
+    max-width: 499px;
+}
+
+.cuadro_REPORTE div .col1{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.cuadro_REPORTE div .col1 div{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cuadro_REPORTE div div span{
+    font-size: 1.05em;
+    margin-right: 15px;
+}
+
+.cuadro_REPORTE div div select{
+    padding: 5px;
+    width: 150px;
+    font-size: 1em !important;
+}
+
+.cuadro_REPORTE div div input[type="text"]{
+    font-size: 1em;
+    padding: 0px 7px;
+    width: 170px !important;
+}
+
+.cuadro_REPORTE input[type="submit"]{
+    background-color: #e6b012;
+    border:1px solid #d9a600;
+    color: white;
+    cursor: pointer;
+    width: 100% !important;
+    padding: 5px;
+    font-size: 1.15em;
+    border-radius: 0.35rem;
+}
+
+.cuadro_REPORTE input[type="submit"]:hover{
+    opacity: 0.8;
+}
+
+.react-datepicker-wrapper{
+    margin-bottom: 0px !important;
+}
+
+/*CSS MACADOR DE MAPA*/
+.abajo-derecha{
+    cursor: pointer;
+}
+
+
+.toltip{
+    position: absolute; 
+    box-sizing: border-box; 
+    overflow: hidden; 
+    top: 0; 
+    left: 2px; 
+    transform: translate3d(-50%,-100%,0); 
+    background-color: white; 
+    border-radius: 8px; 
+    padding: 12px; 
+    box-shadow: 0 2px 7px 1px rgb(0 0 0 / 30%);
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+
+.abajo-derecha::before {
+    position: absolute;
+    content: '';
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    margin-left: -5px;
+    margin-top: -5px;
+    background-color: red;
+}
+
+.abajo-derecha:hover>.abajo-derecha1{
+    display: flex;
+    position: absolute;
+    background-color: #eee;
+    width: 120px;
+    padding: 7px;
+    border-radius: 2px;
+    flex-direction: column;
+    top:25px;
+    font-size: 1.1em;
+}
+
+.abajo-derecha1{
+    display: none;
+}
+
+
+
+.grupos{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 15px;
+}
+
+.listaGrupos{
+    background-color: #F4F4F4;
+    margin: 5px 0px;
+    padding: 10px;
+}
+
+.pasajeros{
+    display: flex;
+    justify-content: flex-start;
+    background: white;
+    padding: 5px;
+    border-top: 1px solid #F4F4F4;  
+}
+
+.pasajeros:hover{
+    background: black;
+    color: white;
+    transition: 300ms;
+    cursor: pointer;
+}
+
+
+.cuadro_mantenimiento{
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    border: none;
+    padding: 15px;
+    margin: 17px;
+    box-shadow:rgb(0 0 0 / 15%) 0px 0px 8px 0px;
+    flex-wrap: unset;
+}
+ 
+.botones{
+    display: flex;
+}
+
+.botones input[type="button"]{
+    padding: 7px;
+    cursor: pointer;
+    margin-right: 5px ;
+    background-color: #F0A500;
+    color: white;
+    border: 1px solid #F0A500;
+    outline: none;
+}
+
+.botones input[type="button"]:hover{
+    background-color: #CF7500;
+}
+
+.mostrarMapa{
+    background-color:#F0A500;
+    border:1px solid #d9a600;
+    padding: 5px 10px;
+    color: white;
+    border-radius: 0.35rem;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.mostrarMapa:hover{
+    opacity: 0.8;
+}
+
+.table_solicitudes .eliminar:hover{
+    background-color: #d0d0d0;
+    cursor: pointer;
+    transition: 350ms;
+}
+
+.emitirReportes{
+    background-color: #F0A500;
+    border:1px solid #F0A500;
+    padding :5px 15px;
+    color:white;
+    cursor:pointer;
+    border-radius: 0.35rem;
+}
+
+.emitirReportes:hover{
+    opacity: 0.8;
+}
+
+.fontSize09em {
+    font-size: 0.9em !important;
+}
+
+.botonLiberar{
+    color:white;
+    background-color:rgb(240, 165, 0);
+    padding:5px;
+    border-radius:0.35rem;
+    margin-right:5px;
+    cursor:pointer;
+    font-size: 0.8rem
+}
+
+.botonLiberar:hover{
+    opacity: 0.8;
+}
+
+.botonEliminar{
+    color:white;
+    background-color:red;
+    padding:5px;
+    border-radius:0.35rem;
+    margin-right:5px;
+    cursor:pointer;
+    font-size: 0.8rem;
+}
+
+.botonEliminar:hover{
+    opacity: 0.8;
+}

@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/static/css/main.164570fc.chunk.css",
+    "main.js": "/static/js/main.04f9efda.chunk.js",
+    "main.js.map": "/static/js/main.04f9efda.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.8544fdf3.js",
+    "runtime-main.js.map": "/static/js/runtime-main.8544fdf3.js.map",
+    "static/css/2.664ae29b.chunk.css": "/static/css/2.664ae29b.chunk.css",
+    "static/js/2.8e330c0e.chunk.js": "/static/js/2.8e330c0e.chunk.js",
+    "static/js/2.8e330c0e.chunk.js.map": "/static/js/2.8e330c0e.chunk.js.map",
+    "static/js/3.0c97f4a8.chunk.js": "/static/js/3.0c97f4a8.chunk.js",
+    "static/js/3.0c97f4a8.chunk.js.map": "/static/js/3.0c97f4a8.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.664ae29b.chunk.css.map": "/static/css/2.664ae29b.chunk.css.map",
+    "static/css/main.164570fc.chunk.css.map": "/static/css/main.164570fc.chunk.css.map",
+    "static/js/2.8e330c0e.chunk.js.LICENSE.txt": "/static/js/2.8e330c0e.chunk.js.LICENSE.txt",
+    "static/media/3_points.77e6a8bc.svg": "/static/media/3_points.77e6a8bc.svg",
+    "static/media/backP.b235855d.svg": "/static/media/backP.b235855d.svg",
+    "static/media/close.fa7e5ead.svg": "/static/media/close.fa7e5ead.svg",
+    "static/media/editP.005241a4.svg": "/static/media/editP.005241a4.svg",
+    "static/media/edit_map.13471c8d.svg": "/static/media/edit_map.13471c8d.svg",
+    "static/media/loader.4b206b15.gif": "/static/media/loader.4b206b15.gif",
+    "static/media/logGasela.fcb7a097.png": "/static/media/logGasela.fcb7a097.png",
+    "static/media/map.0c0840fc.svg": "/static/media/map.0c0840fc.svg",
+    "static/media/mensajeP.93c3a107.svg": "/static/media/mensajeP.93c3a107.svg",
+    "static/media/print.f1d74131.svg": "/static/media/print.f1d74131.svg",
+    "static/media/saveP.fc48a86f.svg": "/static/media/saveP.fc48a86f.svg",
+    "static/media/slick-theme.css": "/static/media/slick.c94f7671.ttf",
+    "static/media/trashP.403f13f5.svg": "/static/media/trashP.403f13f5.svg",
+    "static/media/userPruebaAdd.c5151802.svg": "/static/media/userPruebaAdd.c5151802.svg",
+    "static/media/user_prueba.9c0beabd.svg": "/static/media/user_prueba.9c0beabd.svg",
+    "static/media/usuairo.81d7b418.svg": "/static/media/usuairo.81d7b418.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8544fdf3.js",
+    "static/css/2.664ae29b.chunk.css",
+    "static/js/2.8e330c0e.chunk.js",
+    "static/css/main.164570fc.chunk.css",
+    "static/js/main.04f9efda.chunk.js"
+  ]
+}

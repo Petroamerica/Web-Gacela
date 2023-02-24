@@ -1,0 +1,76 @@
+.header_div{
+    height: 50px;
+    padding-top: 10px;
+  }
+  
+  
+  .header_div .header_div2{
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+  }
+  
+  .header_div .header_div2  img{ 
+    width: 27px;
+  }
+
+  .header_div .header_div2 label{ 
+    margin: 0px 15px ;
+  }
+
+  /* color negro -> #1A1C20*/
+  header ul{ 
+    background-color: #1A1C20 ;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    z-index: 100;
+  }
+  
+
+
+  header ul li:hover{
+    background:  rgb(240, 165, 0);
+    color: black;
+    transition: 300ms;
+  }
+  
+  header ul li, a{
+    list-style:none;
+    text-decoration: none;
+    padding: 15px 10px;
+    cursor: pointer !important;
+    color: white;
+    font-size: 14px;
+  }
+
+  .nav li ul{
+    display: none;
+    position:absolute;
+    min-width:140px;
+    margin-left: -10px;
+  }
+
+  .nav li:hover > ul {
+    margin-top: 15px;
+    display:block;
+  }
+			
+  .nav li ul li {
+    position:relative;
+  }
+
+  .active{
+    color: white;
+    border-bottom: 1px solid #1A1C20;
+  }
+
+  footer{
+    position: fixed;
+    bottom: 0px;
+    background-color: #1A1C20;
+    width: 100%;
+    padding: 7px;
+    color: white;
+    text-align: right;
+  }
